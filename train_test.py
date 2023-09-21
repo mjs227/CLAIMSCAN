@@ -26,7 +26,7 @@ PT_KWARGS = {
     'n_layers': 3,
     'p': 0.1
 }
-RANDOM_SEED = 25  # 6
+RANDOM_SEED = 25
 AGGR_TYPE = 'avg'
 BOS, EOS = torch.tensor([[0]]), torch.tensor([[2]])
 DEVICE = 0 if torch.cuda.is_available() else 'cpu'
